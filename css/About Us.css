@@ -1,0 +1,107 @@
+body{
+background-image: url("../pics/background.png");
+background-size: cover;
+background-attachment: fixed;
+}
+    
+#Navigation-Bar {
+background-color: #3485ccb1;
+width: 100%;
+height: 10%;
+padding: 10px;
+font-family: 'Bauhaus 93';
+color: #F4EAD5;
+font-size: 24px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+table-layout: fixed;
+text-align: center;
+}
+    
+h1 {
+padding-left: 10px;
+font-size: 44px;
+display: inline;
+color: #F4EAD5;
+}
+    
+#inpage {
+color: #FEDDA8;
+}
+    
+.Sign-in-btn {
+background: #ED175E;
+border: none;
+border-radius: 15px;
+height: 50px;
+width: 150px;
+font-family: 'Bauhaus 93';
+color: #F4EAD5;
+font-size: 24px;
+}
+    
+#Sign-in-btn {
+text-align: right;
+padding-top: 20px;
+padding-right: 20px;
+}
+    
+.Sign-in-btn:hover {
+cursor: pointer;
+background: #ad1145;
+}
+    
+
+    
+hr {
+border-radius: 30px;
+}
+    
+a {
+text-decoration: none;
+color: #F4EAD5;
+}
+    
+.f1{
+background-color:#ed175e98;
+width:90%;
+border-radius:40px;
+margin:auto;
+padding:20px;
+text-align:center;
+color:#F4EAD5;
+font-family:Berlin Sans FB;
+font-size:20px;
+}
+    
+font{
+color:#E14D2A;
+font-size:36px;
+font-family: 'Bauhaus 93';
+}
+    
+hr{
+height:3px;
+}
+    
+.translation {
+border-radius: 10px;
+box-shadow: 2px 2px 5px rgba(69, 69, 69, 0.772);
+position: fixed;
+bottom: 5px;
+left: 5px;
+border: rgba(128, 128, 128, 0.761) solid 1px;
+cursor: pointer;
+height: 40px;
+}
+
+#scrollupbtn {
+border: none;
+background-color: transparent;
+position: fixed;
+bottom: 5px;
+right: 5px;
+cursor: pointer;
+}

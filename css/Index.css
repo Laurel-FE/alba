@@ -1,0 +1,248 @@
+body{
+background-image: url("../pics/background.png");
+background-size: cover;
+background-attachment: fixed;
+}
+
+#Navigation-Bar {
+background-color: #3485ccb1;
+width: 100%;
+height: 10%;
+padding: 10px;
+font-family: 'Bauhaus 93';
+color: #F4EAD5;
+font-size: 24px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+h1 {
+padding-left: 35px;
+font-size: 44px;
+display: inline;
+}
+
+.Sign-in-btn {
+background: #ED175E;
+border: none;
+border-radius: 15px;
+height: 50px;
+width: 150px;
+font-family: 'Bauhaus 93';
+color: #F4EAD5;
+font-size: 24px;
+}
+
+#Sign-in-btn {
+text-align: right;
+padding-top: 20px;
+padding-right: 20px;
+display: flex;
+direction: rtl;
+}
+
+.Sign-in-btn:hover {
+cursor: pointer;
+background: #ad1145;
+}
+
+#Slogan {
+width: 100%;
+height: 30%;
+font-family: 'Bauhaus 93';
+color: #E14D2A;
+font-size: 36px;
+text-align: center;
+}
+
+hr {
+border-radius: 30px;
+}
+
+#picture {
+border-radius: 30px;
+height: 420px;
+}
+
+#Description {
+width: 70%;
+color: #E14D2A;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 70px;
+}
+
+#text1 {
+font-family: 'Bauhaus 93';
+font-size: 28px;
+}
+
+#text2 {
+font-family: 'Berlin Sans FB';
+font-size: 22px;
+}
+
+#discover {
+background-color: #ed175e98;
+border-radius: 30px;
+font-family: 'Bauhaus 93';
+font-size: 24px;
+width: 25%;
+height: 120px;
+color: #F4EAD5;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#Navigation_Boxes {
+width: 100%;
+padding: 10px;
+table-layout: fixed;
+}
+
+#orange_box {
+align-items: center;
+text-align: center;
+font-family: 'Bauhaus 93';
+color: #F4EAD5;
+font-size: 32px;
+background-color: #FD8D31;
+border-radius: 30px;
+border: none;
+width: 300px;
+height: 250px;
+box-shadow: 10px 10px 5px gray;
+margin-left: auto;
+margin-right: auto;
+}
+
+#orange_box:hover {
+background-color: #d4701e;
+}
+
+#pink_box {
+align-items: center;
+text-align: center;
+font-family: 'Bauhaus 93';
+color: #F4EAD5;
+font-size: 32px;
+background-color: #ED175E;
+border-radius: 30px;
+border: none;
+width: 300px;
+height: 250px;
+box-shadow: 10px 10px 5px gray;
+margin-left: auto;
+margin-right: auto;
+}
+
+#pink_box:hover {
+background-color: #ad1145;
+}
+
+#cursor:hover {
+cursor: pointer;
+}
+
+a {
+text-decoration: none;
+cursor: default;
+}
+
+#key {
+width: 90%;
+padding: 10px;
+font-family: 'Bauhaus 93';
+color: #ED175E;
+font-size: 36px;
+text-align: center;
+table-layout: fixed;
+margin-left: auto;
+margin-right: auto;
+}
+
+#text3 {
+font-family: 'Bauhaus 93';
+font-size: 24px;
+color: #E14D2A;
+}
+
+#text4 {
+font-family: 'Berlin Sans FB';
+font-size: 20px;
+color: #d34626;
+}
+
+.translation {
+border-radius: 10px;
+box-shadow: 2px 2px 5px rgba(69, 69, 69, 0.772);
+position: fixed;
+bottom: 5px;
+left: 5px;
+border: rgba(128, 128, 128, 0.761) solid 1px;
+cursor: pointer;
+height: 40px;
+}
+
+#scrollupbtn {
+border: none;
+background-color: transparent;
+position: fixed;
+bottom: 5px;
+right: 5px;
+cursor: pointer;
+}
+
+#arws {
+height: 20px;
+}
+
+#pic {
+height: 150;
+}
+
+.dropbtn {
+height: 40px;
+padding-right: 20px;
+padding-top: 5px;
+cursor: pointer;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #ed175e98;
+border-radius: 30px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+text-align: left;
+padding: 10px;
+right: 20;
+width: 500%;
+}
+
+.dropdown-content a {
+color: #F4EAD5;padding: 12px 16px;
+text-decoration: none;
+display: block;
+transition: transform 0.5s;
+}
+
+.dropdown-content a:hover {
+background-color: #c2104b98;
+cursor: pointer;
+transform: translateX(5px);
+border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
